@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/Users/chloewood/Documents/GitHub/QR_Code_Trial/qr-code-component-main/images">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
 
@@ -15,21 +15,22 @@
       width: 100%; 
     }
     body {
-      margin: 20% auto;
+      margin: auto;
       background-color:hsl(212, 45%, 89%);
     }
     .qr-container {
       background-color: hsl(0, 0%, 100%);
       border-radius:10%;
-      padding: 20px;
-      width: 375px;
-      margin:auto;
-      text-align:center;
+      padding: 15px;
+      width: 320px;
+      margin: 20% auto;
+      text-align: center;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     .qr-container img {
       width: 100%;
-      max-width: 375px;
-      border-radius:10%;
+      max-width: 320px;
+      border-radius: 10%;
     }
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');    
     @font-face {
@@ -46,20 +47,22 @@
     }
     h1{
       font-family: 'Outfit', sans-serif;
-      font-size:25px;
+      font-size:22px;
       font-weight:700;
       color:hsl(218, 44%, 22%);
+      padding:0px 20px;
     }
     p {
       font-family: 'Outfit', sans-serif;
       font-size:15px;
       font-style: normal;
       color: hsl(220, 15%, 55%);
+      padding:0px 20px;
     }
     @media screen and (max-width: 650px) {
       .qr-container {
       max-width:375px;
-      margin:auto;
+      margin:10% auto;
       }
     }
     /***
@@ -69,18 +72,16 @@
 - Grayish blue: hsl(220, 15%, 55%)
 - Dark blue: hsl(218, 44%, 22%)
 **/
-
-    
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px;font-family: 'Outfit', sans-serif; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
   <div class="qr-container">
 <div class="inner-container">
-  <img src="/Users/chloewood/Documents/GitHub/QR_Code_Trial/qr-code-component-main/images/image-qr-code.png"></div>
+  <img src="/images/image-qr-code.png"></div>
   <h1>Improve your front-end skills by building projects</h1>
-
   <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 </div>
   <div class="attribution">
